@@ -106,4 +106,19 @@ public class EmployeeRestController {
 
         return objectMapper.convertValue(employeeNode, Employee.class);
     }
+
+    //Add mapping for DELETE /employees/{employeeId} - delete the employee
+    @DeleteMapping("/employees/{employeeId}")
+    public String deleteEmployee(@PathVariable int employeeId){
+
+        Employee tempEmployee = employeeService.findById(employeeId);
+
+        if(tempEmployee == null){
+            throw new RuntimeException("Employee does not exsit: " + employeeId);
+        }
+
+        employeeService.deleteById(employeeId);
+
+        return "Deleted employeed ID: " + employeeId;
+    }
 }
