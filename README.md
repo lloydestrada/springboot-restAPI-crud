@@ -5,7 +5,7 @@ This project built with **Spring Boot** that demonstrates how to create a simple
 ## Features
 
 - REST API with CRUD functionality
-- REST API Design Practices
+- REST API design practices
 - Deepens learning of java core
 
 ## Dependencies
