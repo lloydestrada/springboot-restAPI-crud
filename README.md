@@ -19,3 +19,6 @@ The project uses the following main dependencies:
 - **Spring Boot DevTools** – for automatic restarts during development.
 - **MySQL Driver** – for MySQL database connectivity.
 
+## MYSQL WORKBENCH
+
+- *scripts:*
