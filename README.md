@@ -21,7 +21,8 @@ The project uses the following main dependencies:
 
 ## MYSQL WORKBENCH
 
-*scripts:* [Uploading employee-direCREATE DATABASE  IF NOT EXISTS `employee_directory`;
+**scripts**
+```CREATE DATABASE  IF NOT EXISTS `employee_directory`;
 USE `employee_directory`;
 
 --
@@ -49,5 +50,6 @@ INSERT INTO `employee` VALUES
 	(4,'Yuri','Petrov','yuri@luv2code.com'),
 	(5,'Juan','Vega','juan@luv2code.com');
 
-ctory.sql…]()
+
+
 
