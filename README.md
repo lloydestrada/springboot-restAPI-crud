@@ -8,7 +8,8 @@ Initially, I explored and tested the system using the DAO pattern to understand 
 
 - REST API with CRUD functionality
 - REST API design practices
-- Deepens learning of java core
+- Deepens learning of java spring boot core
+- API testing using Postman
 
 ## Dependencies
 
