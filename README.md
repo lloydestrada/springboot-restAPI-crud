@@ -21,7 +21,7 @@ The project uses the following main dependencies:
 
 ## MYSQL WORKBENCH
 
-**scripts**
+**SCRIPT**
 ```sql
 CREATE DATABASE  IF NOT EXISTS `employee_directory`;
 USE `employee_directory`;
