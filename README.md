@@ -1,6 +1,8 @@
 # Spring Boot REST CRUD
 
-This project built with **Spring Boot** that demonstrates how to create a simple **REST API** performing **CRUD (Create, Read, Update, Delete)** operations. It focuses on building REST endpoints using **RestController**, connecting to a **MySQL database** using **Spring Data JPA**, and managing entities using standard HTTP methods.
+This project is built with Spring Boot and demonstrates the creation of a simple REST API performing CRUD (Create, Read, Update, Delete) operations. It focuses on building RESTful endpoints using @RestController, connecting to a MySQL database with Spring Data JPA, and managing entities through standard HTTP methods.
+
+Initially, I explored and tested the system using the DAO pattern to understand the core concepts, before transitioning to JPA Repositories for simpler, cleaner, and more efficient code.
 
 ## Features
 
