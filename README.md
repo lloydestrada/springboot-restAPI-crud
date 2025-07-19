@@ -4,7 +4,7 @@ This project is built with Spring Boot and demonstrates the creation of a simple
 </p>
 
 <p align="justify">
-Initially, I explored and tested the system using the DAO pattern to understand the core concepts, before transitioning to JPA Repositories for simpler, cleaner, and more efficient code.
+Initially, I explored and tested the system using the DAO deisgn pattern to understand the core concepts, before transitioning to JPA Repositories for simpler, cleaner, and more efficient code.
 </p>
 
 <p align="justify">
